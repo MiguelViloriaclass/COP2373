@@ -1,6 +1,6 @@
 # Programming Exercise 1: Cinema Ticket Pre-Sale
 # Author: Miguel Viloria
-# Date: August 29, 2026
+# Date: August 29, 20266666
 
 def get_tickets(remaining_tickets):
     """
