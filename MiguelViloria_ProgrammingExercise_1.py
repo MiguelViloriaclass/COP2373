@@ -28,7 +28,7 @@ def get_tickets(remaining_tickets):
     # Keep asking until user provides a valid ticket count
     while True:
         # Get input from user
-        desired_tickets = int(input("How many tickets would you like to buy ? "))
+        desired_tickets = int(input("Enter the number of tickets you wish to purchase: "))
 
         # Check if requested tickets are within valid limits
         if desired_tickets < 1 or desired_tickets > 4:
