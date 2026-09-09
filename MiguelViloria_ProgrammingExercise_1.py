@@ -51,7 +51,7 @@ def main():
     Variables used:
     TOTAL_TICKETS (int): Constant for maximum total tickets available (10).
     remaining_tickets (int): Number of tickets left to sell.
-    total_buyers (int): Accumulator variable to count number of buyers.
+    buyer_count (int): Accumulator variable to count number of buyers.
     tickets_bought (int): Quantity of tickets bought in the current transaction.
 
     Logical steps:
@@ -72,7 +72,7 @@ def main():
 
     # Initialize variables
     remaining_tickets = TOTAL_TICKETS
-    total_buyers = 0
+    buyer_count = 0
 
     print("--- Welcome to the Cinema Ticket Pre-Sale Hollywood ---")
     print("Total tickets available: " + str(TOTAL_TICKETS))
@@ -85,7 +85,7 @@ def main():
 
         # Update remaining tickets and buyer accumulator
         remaining_tickets = remaining_tickets - tickets_bought
-        total_buyers = total_buyers + 1
+        buyer_count = buyer_count + 1
 
         # Display current status
         print("Purchase successful!")
@@ -94,7 +94,7 @@ def main():
 
     # Final output after loop finishes
     print("All tickets have been sold out!")
-    print("Total number of buyers: " + str(total_buyers))
+    print("Total number of buyers: " + str(buyer_count))
 
 
 # Execute main function
