@@ -1,6 +1,6 @@
 # Programming Exercise 1: Cinema Ticket Pre-Sale
 # Author: Miguel Viloria
-# Date: August 29, 20266666
+# Date: September 9, 2026
 
 def get_tickets(remaining_tickets):
     """
@@ -49,13 +49,13 @@ def main():
     None
 
     Variables used:
-    TOTAL_TICKETS (int): Constant for maximum total tickets available (20).
+    TOTAL_TICKETS (int): Constant for maximum total tickets available (10).
     remaining_tickets (int): Number of tickets left to sell.
     total_buyers (int): Accumulator variable to count number of buyers.
     tickets_bought (int): Quantity of tickets bought in the current transaction.
 
     Logical steps:
-    1. Initialize total tickets to 20 and buyer accumulator to 0.
+    1. Initialize total tickets to 10 and buyer accumulator to 0.
     2. Print welcome message.
     3. Loop until remaining_tickets reaches 0.
     4. Call get_tickets() to get valid number of tickets from user.
@@ -68,7 +68,7 @@ def main():
     None
     """
     # Define constant for initial ticket amount
-    TOTAL_TICKETS = 20
+    TOTAL_TICKETS = 10
 
     # Initialize variables
     remaining_tickets = TOTAL_TICKETS
